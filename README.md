@@ -26,7 +26,7 @@ The rest of the modules used by the script (`socket`, `struct`, `json`, `csv`, `
 ## Basic usage
 
 ```
-python3 mc_server_scanner.py --ip <IP or range> [options]
+python3 main.py --ip <IP or range> [options]
 ```
 
 If you don't specify `--ip`, the scanner defaults to `0.0.0.0/0` (full range, though the current implementation limits this to `127.0.0.1` to avoid accidental mass scans).
