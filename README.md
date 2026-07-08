@@ -4,13 +4,11 @@ A command-line tool written in Python to scan Minecraft servers, check how many 
 
 ## Installation
 
-1. f
+1. Clone repository
 
   ```
   git clone https://github.com/zpiping/Minecraft-Scanner.git
   ```
-
-
    
 3. Install the dependencies:
 
