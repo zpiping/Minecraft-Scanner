@@ -69,31 +69,31 @@ If you enable `--geo-ip` and the `./GeoLite2.mmdb` file doesn't exist yet, the s
 Scan a single IP on the default port:
 
 ```
-python3 mc_server_scanner.py --ip 1.2.3.4 --port 25565
+python3 main.py --ip 1.2.3.4 --port 25565
 ```
 
 Scan an IP range (CIDR notation) while showing the server description:
 
 ```
-python3 mc_server_scanner.py --ip 1.2.3.0/24 --port 25565-25566 --show-desc
+python3 main.py --ip 1.2.3.0/24 --port 25565-25566 --show-desc
 ```
 
 Filter by version and minimum players, saving the result as CSV:
 
 ```
-python3 mc_server_scanner.py --ip 1.2.3.0/24 --version "1.20.*" --min-players 1 --out results.csv --format csv
+python3 main.py --ip 1.2.3.0/24 --version "1.20.*" --min-players 1 --out results.csv --format csv
 ```
 
 Scan with geolocation, including coordinates:
 
 ```
-python3 mc_server_scanner.py --ip 1.2.3.0/24 --geo-ip --geo-coords --maxmind-key YOUR_LICENSE_KEY
+python3 main.py --ip 1.2.3.0/24 --geo-ip --geo-coords --maxmind-key YOUR_LICENSE_KEY
 ```
 
 Silent scan, saving only to a file:
 
 ```
-python3 mc_server_scanner.py --ip 1.2.3.0/24 --quiet --out results.csv --format txt-connect-only
+python3 main.py --ip 1.2.3.0/24 --quiet --out results.csv --format txt-connect-only
 ```
 
 ## Output formats
@@ -105,7 +105,7 @@ python3 mc_server_scanner.py --ip 1.2.3.0/24 --quiet --out results.csv --format 
 ## See all options from the terminal
 
 ```
-python3 mc_server_scanner.py --help
+python3 main.py --help
 ```
 
 ## Notes
