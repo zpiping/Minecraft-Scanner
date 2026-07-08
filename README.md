@@ -4,8 +4,15 @@ A command-line tool written in Python to scan Minecraft servers, check how many 
 
 ## Installation
 
-1. Clone or download `mc_server_scanner.py` and `requirements.txt` into the same folder.
-2. Install the dependencies:
+1. f
+
+  ```
+  git clone https://github.com/zpiping/Minecraft-Scanner.git
+  ```
+
+
+   
+3. Install the dependencies:
 
 ```
 pip install -r requirements.txt
